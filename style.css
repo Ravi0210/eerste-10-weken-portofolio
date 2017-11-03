@@ -1,0 +1,474 @@
+
+body {
+
+
+    background-image: url("fotos/geit2.0.jpg");
+    background-attachment: fixed;
+
+
+
+}
+.index{
+
+    background-color: #0f00ff;
+    z-index: -1;
+
+}
+.about-me {
+    height: 10%;
+    width: 10%;
+}
+
+.nav2 {
+    background-color: #84d312;
+    padding: 0.1% 0;
+    position: -webkit-sticky;
+    position: sticky;
+
+}
+
+.ul2 {
+    text-align: center;
+    display: flex;
+    font-family: "arial;", Tahoma, Verdana, Segoe, sans-serif;
+    justify-content: start;
+
+}
+
+nav ul li {
+
+    list-style-type: none;
+    text-align: center;
+
+}
+
+nav ul li a {
+    font-size: 20pt;
+    color: #1a1a1a;
+    text-decoration: none;
+    width: 50%;
+
+}
+
+.hover-effect:hover {
+    color: #ffdde1;
+    background: rgb(26, 26, 26);
+
+}
+
+body {
+
+    margin: 10% 7%;
+
+    color: #ffffff;
+
+}
+
+.about {
+
+    padding: 0 2%;
+
+}
+
+.paddin {
+
+    padding-right: 0.5%;
+    font-size: larger;
+
+}
+
+.streepeu {
+
+    padding-left: 0.5%;
+
+}
+
+.streepje {
+
+    font-size: larger;
+    position: absolute;
+    top: 20%;
+
+}
+
+.input {
+
+    height: 4vh;
+    width: 25vh;
+    font-size: large;
+    position: absolute;
+    top: 22.5%;
+    right: 8%;
+
+}
+
+.label:hover {
+
+    background-color: rgb(179, 54, 38);
+    color: white;
+
+}
+
+input:active {
+
+}
+
+.stijl {
+
+    position: absolute;
+    top: 6%;
+    left: 35%;
+    z-index: 3;
+
+}
+
+.site-link {
+
+    border-radius: 25px;
+    border: 2px solid #24e4ff;
+    width: 20%;
+    height: 11%;
+    font-family: "arial;", Tahoma, Verdana, Segoe, sans-serif;
+    color: #43413d;
+    background-color: #67ffc2;
+}
+
+@keyframes achtergrond {
+    0% {
+        background-color: #43413d;
+    }
+    25% {
+        background-color: #f8f7ff;
+    }
+    50% {
+        background-color: #43413d;
+    }
+    75% {
+        background-color: #f8f7ff;
+    }
+    100% {
+        background-color: #43413d;
+    }
+}
+
+#gif {
+
+    margin: 0 18%;
+    position: absolute;
+    top: 11%;
+    border: solid #24e4ff;
+    height: 79.1%;
+
+}
+
+.index {
+
+    background-color: #514f4b;
+    animation: achtergrond infinite 0.1s;
+    animation-name: achtergrond;
+    animation-duration: 19s;
+}
+
+.h1 {
+    color: #f8f7ff;
+    font-family: "arial;", Tahoma, Verdana, Segoe, sans-serif;
+    position: absolute;
+    top: 85%;
+    right: 14%;
+    animation-name: example;
+    animation: 0.1s example infinite;
+
+}
+
+tr, td, table {
+
+    border: 1px solid #67ff5b;
+
+}
+
+table {
+    text-align: center;
+    font-family: "arial;", Tahoma, Verdana, Segoe, sans-serif;
+    margin-left: 20%;
+    position: absolute;
+    top: 60vh;
+
+}
+
+table a {
+
+    color: white;
+
+}
+
+textarea {
+
+    width: 100vw;
+    height: 20vh;
+
+}
+
+.margin {
+
+    padding: 5% 7%;
+    width: 30%;
+    display: inline-block;
+
+}
+
+.formu {
+
+    font-family: "arial;", Tahoma, Verdana, Segoe, sans-serif;
+    position: absolute;
+    padding-left: 50%;
+    top: 60%;
+
+}
+
+.background_color {
+
+    height: 40vh;
+    background-color: #005800;
+    width: 100%;
+    margin-top: 2%;
+    padding-top: 5%;
+}
+
+.main2 {
+
+    display: inline-block;
+    background-color: #005800;
+    width: 100%;
+    height: 84vh;
+    margin-top: 2%;
+
+}
+
+.section {
+
+    background-color: #005800;
+    display: inline-block;
+    padding: 0 15%;
+    width: 60vh;
+    height: 113vh;
+    margin-top: 2%;
+
+}
+
+.button {
+
+    font-family: "arial;", Tahoma, Verdana, Segoe, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    position: relative;
+    left: 39%;
+    width: 30%;
+    height: 4vh;
+    background-color: #0f00ff;
+    color: #fdf9ff;
+    padding: 0;
+    border: 0;
+    border-radius: 6px;
+
+}
+
+.klik {
+
+    color: #f8f7ff;
+    font-family: "arial;", Tahoma, Verdana, Segoe, sans-serif;
+    position: absolute;
+    top: 92%;
+    right: 14%;
+
+}
+
+input {
+
+    background-color: white;
+    border: solid #d0cdd1;
+    height: 12%;
+    width: 28%;
+    font-size: large;
+
+}
+
+textarea {
+
+    width: 70%;
+
+}
+
+#mail {
+
+    width: 70%;
+    height: 4vh;
+
+}
+
+#naam {
+
+    width: 34%;
+    height: 4vh;
+
+}
+
+#achternaam {
+
+    width: 34%;
+    height: 4vh;
+
+}
+
+.labels {
+
+}
+
+.Ah1 {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.aside {
+
+    background-color: #514f4b;
+
+}
+
+.aside2 {
+
+    background-color: #005800;
+    padding: 5% 13%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: space-around;
+
+}
+
+input {
+
+    background-color: white;
+
+}
+
+.foto1 {
+
+    width: 32%;
+    height: 35vh;
+    border: solid 1vh greenyellow;
+
+}
+
+.foto2 {
+
+    width: 31%;
+    height: 35vh;
+    border: solid 1vh greenyellow;
+
+}
+
+.foto3 {
+
+    width: 31%;
+    height: 35vh;
+    border: solid 1vh greenyellow;
+
+}
+
+.foto4 {
+
+    width: 32%;
+    height: 35vh;
+    border: solid 1vh greenyellow;
+
+}
+
+.foto5 {
+
+    width: 31%;
+    height: 35vh;
+    border: solid 1vh greenyellow;
+
+}
+
+.foto6 {
+
+    width: 31%;
+    height: 35vh;
+    border: solid 1vh greenyellow;
+
+}
+
+/*
+.blok {
+
+    background-color: rgba(208, 205, 209, 0.53);
+    width: 46vh;
+    height: 113vh;
+    position: fixed;
+    top: 32.2vh;
+    right: 7.1vw;
+
+}
+*/
+.flex {
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: stretch;
+    /*tijdelijke oplossing*/
+
+}
+
+footer {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    font-weight: bolder;
+    font-family: "arial;", Tahoma, Verdana, Segoe, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    background-color: #84d312;
+    margin-top: 20vh;
+}
+
+.test {
+
+    margin-top: 5%;
+
+}
+
+.ht {
+
+    background-color: darkgrey;
+
+}
+
+#test123 {
+    -webkit-animation: test123 30s;
+    animation: test123 15s;
+    animation-delay: 3s;
+}
+
+@-webkit-keyframes test123 {
+    50% {
+        word-spacing: 50px;
+    }
+}
+
+@keyframes test123 {
+    50% {
+        word-spacing: 50px;
+    }
+}
